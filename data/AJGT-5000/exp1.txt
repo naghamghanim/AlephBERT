@@ -1,0 +1,432 @@
+Downloading: 100%
+532k/532k [00:00<00:00, 377kB/s]
+Downloading: 100%
+112/112 [00:00<00:00, 3.20kB/s]
+Downloading: 100%
+288/288 [00:00<00:00, 9.54kB/s]
+Downloading: 100%
+565/565 [00:00<00:00, 17.5kB/s]
+Downloading: 100%
+481M/481M [00:09<00:00, 43.1MB/s]
+Some weights of the model checkpoint at onlplab/alephbert-base were not used when initializing BertModel: ['cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.predictions.decoder.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of BertModel were not initialized from the model checkpoint at onlplab/alephbert-base and are newly initialized: ['bert.pooler.dense.weight', 'bert.pooler.dense.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:07:24	Epoch 0 | Batch 10/438 | Timestep 10 | Loss 0.649467
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:07:25	Epoch 0 | Batch 20/438 | Timestep 20 | Loss 0.675982
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:07:27	Epoch 0 | Batch 30/438 | Timestep 30 | Loss 0.553648
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:07:28	Epoch 0 | Batch 40/438 | Timestep 40 | Loss 0.542044
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:07:29	Epoch 0 | Batch 50/438 | Timestep 50 | Loss 0.721536
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:07:31	Epoch 0 | Batch 60/438 | Timestep 60 | Loss 0.652005
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:07:32	Epoch 0 | Batch 70/438 | Timestep 70 | Loss 0.709215
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:07:34	Epoch 0 | Batch 80/438 | Timestep 80 | Loss 0.554272
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:07:35	Epoch 0 | Batch 90/438 | Timestep 90 | Loss 0.769033
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:07:37	Epoch 0 | Batch 100/438 | Timestep 100 | Loss 0.802182
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:07:38	Epoch 0 | Batch 110/438 | Timestep 110 | Loss 0.671865
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:07:39	Epoch 0 | Batch 120/438 | Timestep 120 | Loss 0.573260
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:07:41	Epoch 0 | Batch 130/438 | Timestep 130 | Loss 0.871320
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:07:42	Epoch 0 | Batch 140/438 | Timestep 140 | Loss 0.548505
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:07:44	Epoch 0 | Batch 150/438 | Timestep 150 | Loss 0.595529
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:07:45	Epoch 0 | Batch 160/438 | Timestep 160 | Loss 0.549329
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:07:47	Epoch 0 | Batch 170/438 | Timestep 170 | Loss 0.678783
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:07:48	Epoch 0 | Batch 180/438 | Timestep 180 | Loss 0.379529
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:07:50	Epoch 0 | Batch 190/438 | Timestep 190 | Loss 0.684356
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:07:51	Epoch 0 | Batch 200/438 | Timestep 200 | Loss 0.711451
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:07:53	Epoch 0 | Batch 210/438 | Timestep 210 | Loss 0.745423
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:07:54	Epoch 0 | Batch 220/438 | Timestep 220 | Loss 0.429182
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:07:56	Epoch 0 | Batch 230/438 | Timestep 230 | Loss 0.798800
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:07:57	Epoch 0 | Batch 240/438 | Timestep 240 | Loss 0.675820
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:07:58	Epoch 0 | Batch 250/438 | Timestep 250 | Loss 0.668205
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:08:00	Epoch 0 | Batch 260/438 | Timestep 260 | Loss 0.654812
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:08:01	Epoch 0 | Batch 270/438 | Timestep 270 | Loss 0.648026
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:08:03	Epoch 0 | Batch 280/438 | Timestep 280 | Loss 0.609345
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:08:04	Epoch 0 | Batch 290/438 | Timestep 290 | Loss 0.412563
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:08:05	Epoch 0 | Batch 300/438 | Timestep 300 | Loss 0.838495
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:08:07	Epoch 0 | Batch 310/438 | Timestep 310 | Loss 0.519013
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:08:08	Epoch 0 | Batch 320/438 | Timestep 320 | Loss 0.393952
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:08:10	Epoch 0 | Batch 330/438 | Timestep 330 | Loss 0.730888
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:08:11	Epoch 0 | Batch 340/438 | Timestep 340 | Loss 0.436545
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:08:13	Epoch 0 | Batch 350/438 | Timestep 350 | Loss 0.616026
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:08:14	Epoch 0 | Batch 360/438 | Timestep 360 | Loss 0.378504
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:08:16	Epoch 0 | Batch 370/438 | Timestep 370 | Loss 0.901023
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:08:17	Epoch 0 | Batch 380/438 | Timestep 380 | Loss 0.348104
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:08:18	Epoch 0 | Batch 390/438 | Timestep 390 | Loss 0.363838
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:08:20	Epoch 0 | Batch 400/438 | Timestep 400 | Loss 0.625812
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:08:21	Epoch 0 | Batch 410/438 | Timestep 410 | Loss 0.806605
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:08:23	Epoch 0 | Batch 420/438 | Timestep 420 | Loss 0.532131
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:08:25	Epoch 0 | Batch 430/438 | Timestep 430 | Loss 0.835568
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:08:26	** Evaluating on validation dataset **
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:08:28	
+              precision    recall  f1-score   support
+
+    Negative       0.80      0.33      0.47       195
+    Positive       0.69      0.95      0.80       305
+
+    accuracy                           0.71       500
+   macro avg       0.74      0.64      0.63       500
+weighted avg       0.73      0.71      0.67       500
+
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:08:28	Epoch 0 | Timestep 438 | Train Loss 0.594669 | Val Loss 0.551260 | F1 Micro 0.706000
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:08:28	** Validation improved, evaluating test data **
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:08:33	
+              precision    recall  f1-score   support
+
+    Negative       0.83      0.37      0.51       408
+    Positive       0.69      0.95      0.80       592
+
+    accuracy                           0.71      1000
+   macro avg       0.76      0.66      0.65      1000
+weighted avg       0.74      0.71      0.68      1000
+
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:08:33	Epoch 0 | Timestep 438 | Test Loss 0.560096 | F1 Micro 0.712000
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:08:33	Saving checkpoint to /content/output/model.pt
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:08:39	Epoch 1 | Batch 2/438 | Timestep 440 | Loss 0.596861
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:08:41	Epoch 1 | Batch 12/438 | Timestep 450 | Loss 0.347215
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:08:42	Epoch 1 | Batch 22/438 | Timestep 460 | Loss 0.273747
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:08:43	Epoch 1 | Batch 32/438 | Timestep 470 | Loss 1.113236
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:08:45	Epoch 1 | Batch 42/438 | Timestep 480 | Loss 0.697585
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:08:46	Epoch 1 | Batch 52/438 | Timestep 490 | Loss 0.342595
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:08:48	Epoch 1 | Batch 62/438 | Timestep 500 | Loss 0.476327
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:08:49	Epoch 1 | Batch 72/438 | Timestep 510 | Loss 0.496597
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:08:51	Epoch 1 | Batch 82/438 | Timestep 520 | Loss 0.435767
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:08:52	Epoch 1 | Batch 92/438 | Timestep 530 | Loss 0.282093
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:08:54	Epoch 1 | Batch 102/438 | Timestep 540 | Loss 0.418911
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:08:56	Epoch 1 | Batch 112/438 | Timestep 550 | Loss 0.663160
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:08:57	Epoch 1 | Batch 122/438 | Timestep 560 | Loss 1.035367
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:08:59	Epoch 1 | Batch 132/438 | Timestep 570 | Loss 0.424673
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:09:00	Epoch 1 | Batch 142/438 | Timestep 580 | Loss 0.715270
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:09:02	Epoch 1 | Batch 152/438 | Timestep 590 | Loss 0.555523
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:09:04	Epoch 1 | Batch 162/438 | Timestep 600 | Loss 0.281443
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:09:06	Epoch 1 | Batch 172/438 | Timestep 610 | Loss 0.454110
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:09:07	Epoch 1 | Batch 182/438 | Timestep 620 | Loss 0.349829
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:09:09	Epoch 1 | Batch 192/438 | Timestep 630 | Loss 0.205121
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:09:10	Epoch 1 | Batch 202/438 | Timestep 640 | Loss 0.257705
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:09:12	Epoch 1 | Batch 212/438 | Timestep 650 | Loss 0.369006
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:09:13	Epoch 1 | Batch 222/438 | Timestep 660 | Loss 0.889768
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:09:14	Epoch 1 | Batch 232/438 | Timestep 670 | Loss 0.529624
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:09:16	Epoch 1 | Batch 242/438 | Timestep 680 | Loss 0.350391
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:09:17	Epoch 1 | Batch 252/438 | Timestep 690 | Loss 0.685835
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:09:19	Epoch 1 | Batch 262/438 | Timestep 700 | Loss 0.424125
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:09:20	Epoch 1 | Batch 272/438 | Timestep 710 | Loss 0.470056
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:09:22	Epoch 1 | Batch 282/438 | Timestep 720 | Loss 0.202572
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:09:23	Epoch 1 | Batch 292/438 | Timestep 730 | Loss 0.319725
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:09:25	Epoch 1 | Batch 302/438 | Timestep 740 | Loss 0.238540
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:09:26	Epoch 1 | Batch 312/438 | Timestep 750 | Loss 0.694843
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:09:28	Epoch 1 | Batch 322/438 | Timestep 760 | Loss 0.409433
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:09:29	Epoch 1 | Batch 332/438 | Timestep 770 | Loss 0.611128
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:09:31	Epoch 1 | Batch 342/438 | Timestep 780 | Loss 0.550555
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:09:32	Epoch 1 | Batch 352/438 | Timestep 790 | Loss 0.218993
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:09:34	Epoch 1 | Batch 362/438 | Timestep 800 | Loss 0.638429
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:09:35	Epoch 1 | Batch 372/438 | Timestep 810 | Loss 0.849677
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:09:37	Epoch 1 | Batch 382/438 | Timestep 820 | Loss 0.462836
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:09:38	Epoch 1 | Batch 392/438 | Timestep 830 | Loss 0.581577
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:09:40	Epoch 1 | Batch 402/438 | Timestep 840 | Loss 0.376029
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:09:41	Epoch 1 | Batch 412/438 | Timestep 850 | Loss 0.340199
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:09:43	Epoch 1 | Batch 422/438 | Timestep 860 | Loss 0.297064
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:09:44	Epoch 1 | Batch 432/438 | Timestep 870 | Loss 0.550677
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:09:45	** Evaluating on validation dataset **
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:09:48	
+              precision    recall  f1-score   support
+
+    Negative       0.66      0.61      0.63       195
+    Positive       0.76      0.80      0.78       305
+
+    accuracy                           0.73       500
+   macro avg       0.71      0.70      0.71       500
+weighted avg       0.72      0.73      0.72       500
+
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:09:48	Epoch 1 | Timestep 876 | Train Loss 0.438958 | Val Loss 0.530339 | F1 Micro 0.726000
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:09:48	** Validation improved, evaluating test data **
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:09:52	
+              precision    recall  f1-score   support
+
+    Negative       0.68      0.65      0.67       408
+    Positive       0.77      0.79      0.78       592
+
+    accuracy                           0.73      1000
+   macro avg       0.72      0.72      0.72      1000
+weighted avg       0.73      0.73      0.73      1000
+
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:09:52	Epoch 1 | Timestep 876 | Test Loss 0.541016 | F1 Micro 0.732000
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:09:52	Saving checkpoint to /content/output/model.pt
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:09:59	Epoch 2 | Batch 4/438 | Timestep 880 | Loss 0.170686
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:10:00	Epoch 2 | Batch 14/438 | Timestep 890 | Loss 0.451213
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:10:02	Epoch 2 | Batch 24/438 | Timestep 900 | Loss 0.241975
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:10:03	Epoch 2 | Batch 34/438 | Timestep 910 | Loss 0.199750
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:10:05	Epoch 2 | Batch 44/438 | Timestep 920 | Loss 0.055042
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:10:06	Epoch 2 | Batch 54/438 | Timestep 930 | Loss 0.487635
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:10:08	Epoch 2 | Batch 64/438 | Timestep 940 | Loss 0.110414
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:10:09	Epoch 2 | Batch 74/438 | Timestep 950 | Loss 0.144741
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:10:11	Epoch 2 | Batch 84/438 | Timestep 960 | Loss 0.355672
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:10:12	Epoch 2 | Batch 94/438 | Timestep 970 | Loss 0.084341
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:10:14	Epoch 2 | Batch 104/438 | Timestep 980 | Loss 0.061034
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:10:15	Epoch 2 | Batch 114/438 | Timestep 990 | Loss 0.321477
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:10:17	Epoch 2 | Batch 124/438 | Timestep 1000 | Loss 0.336519
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:10:18	Epoch 2 | Batch 134/438 | Timestep 1010 | Loss 0.044422
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:10:20	Epoch 2 | Batch 144/438 | Timestep 1020 | Loss 0.279846
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:10:22	Epoch 2 | Batch 154/438 | Timestep 1030 | Loss 0.134462
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:10:23	Epoch 2 | Batch 164/438 | Timestep 1040 | Loss 0.283653
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:10:25	Epoch 2 | Batch 174/438 | Timestep 1050 | Loss 0.205515
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:10:26	Epoch 2 | Batch 184/438 | Timestep 1060 | Loss 0.043406
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:10:28	Epoch 2 | Batch 194/438 | Timestep 1070 | Loss 0.532850
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:10:29	Epoch 2 | Batch 204/438 | Timestep 1080 | Loss 0.210424
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:10:31	Epoch 2 | Batch 214/438 | Timestep 1090 | Loss 0.467221
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:10:32	Epoch 2 | Batch 224/438 | Timestep 1100 | Loss 0.209678
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:10:34	Epoch 2 | Batch 234/438 | Timestep 1110 | Loss 0.163673
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:10:35	Epoch 2 | Batch 244/438 | Timestep 1120 | Loss 0.242121
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:10:37	Epoch 2 | Batch 254/438 | Timestep 1130 | Loss 0.215231
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:10:38	Epoch 2 | Batch 264/438 | Timestep 1140 | Loss 0.167915
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:10:40	Epoch 2 | Batch 274/438 | Timestep 1150 | Loss 0.179827
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:10:41	Epoch 2 | Batch 284/438 | Timestep 1160 | Loss 0.191885
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:10:43	Epoch 2 | Batch 294/438 | Timestep 1170 | Loss 0.239946
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:10:44	Epoch 2 | Batch 304/438 | Timestep 1180 | Loss 0.624004
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:10:46	Epoch 2 | Batch 314/438 | Timestep 1190 | Loss 0.075908
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:10:47	Epoch 2 | Batch 324/438 | Timestep 1200 | Loss 0.087718
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:10:49	Epoch 2 | Batch 334/438 | Timestep 1210 | Loss 0.121991
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:10:50	Epoch 2 | Batch 344/438 | Timestep 1220 | Loss 0.487900
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:10:52	Epoch 2 | Batch 354/438 | Timestep 1230 | Loss 0.529320
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:10:53	Epoch 2 | Batch 364/438 | Timestep 1240 | Loss 0.619745
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:10:55	Epoch 2 | Batch 374/438 | Timestep 1250 | Loss 0.299108
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:10:56	Epoch 2 | Batch 384/438 | Timestep 1260 | Loss 0.164632
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:10:58	Epoch 2 | Batch 394/438 | Timestep 1270 | Loss 0.746040
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:11:00	Epoch 2 | Batch 404/438 | Timestep 1280 | Loss 0.279057
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:11:01	Epoch 2 | Batch 414/438 | Timestep 1290 | Loss 0.138119
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:11:03	Epoch 2 | Batch 424/438 | Timestep 1300 | Loss 0.215735
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:11:04	Epoch 2 | Batch 434/438 | Timestep 1310 | Loss 0.104062
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:11:05	** Evaluating on validation dataset **
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:11:07	
+              precision    recall  f1-score   support
+
+    Negative       0.59      0.67      0.62       195
+    Positive       0.77      0.70      0.73       305
+
+    accuracy                           0.69       500
+   macro avg       0.68      0.68      0.68       500
+weighted avg       0.70      0.69      0.69       500
+
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:11:07	Epoch 2 | Timestep 1314 | Train Loss 0.268971 | Val Loss 0.729481 | F1 Micro 0.688000
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:11:08	Epoch 3 | Batch 6/438 | Timestep 1320 | Loss 0.227403
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:11:09	Epoch 3 | Batch 16/438 | Timestep 1330 | Loss 0.169857
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:11:11	Epoch 3 | Batch 26/438 | Timestep 1340 | Loss 0.095634
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:11:13	Epoch 3 | Batch 36/438 | Timestep 1350 | Loss 0.030767
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:11:14	Epoch 3 | Batch 46/438 | Timestep 1360 | Loss 0.094691
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:11:16	Epoch 3 | Batch 56/438 | Timestep 1370 | Loss 0.119824
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:11:17	Epoch 3 | Batch 66/438 | Timestep 1380 | Loss 0.157075
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:11:19	Epoch 3 | Batch 76/438 | Timestep 1390 | Loss 0.119426
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:11:20	Epoch 3 | Batch 86/438 | Timestep 1400 | Loss 0.008832
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:11:21	Epoch 3 | Batch 96/438 | Timestep 1410 | Loss 0.140876
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:11:23	Epoch 3 | Batch 106/438 | Timestep 1420 | Loss 0.017908
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:11:24	Epoch 3 | Batch 116/438 | Timestep 1430 | Loss 0.012569
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:11:26	Epoch 3 | Batch 126/438 | Timestep 1440 | Loss 0.010898
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:11:27	Epoch 3 | Batch 136/438 | Timestep 1450 | Loss 0.086993
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:11:29	Epoch 3 | Batch 146/438 | Timestep 1460 | Loss 0.013482
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:11:30	Epoch 3 | Batch 156/438 | Timestep 1470 | Loss 0.006220
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:11:32	Epoch 3 | Batch 166/438 | Timestep 1480 | Loss 0.050221
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:11:33	Epoch 3 | Batch 176/438 | Timestep 1490 | Loss 0.006308
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:11:35	Epoch 3 | Batch 186/438 | Timestep 1500 | Loss 0.012249
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:11:36	Epoch 3 | Batch 196/438 | Timestep 1510 | Loss 0.078036
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:11:38	Epoch 3 | Batch 206/438 | Timestep 1520 | Loss 0.275502
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:11:39	Epoch 3 | Batch 216/438 | Timestep 1530 | Loss 0.044276
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:11:40	Epoch 3 | Batch 226/438 | Timestep 1540 | Loss 0.013156
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:11:42	Epoch 3 | Batch 236/438 | Timestep 1550 | Loss 0.022049
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:11:43	Epoch 3 | Batch 246/438 | Timestep 1560 | Loss 0.049906
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:11:45	Epoch 3 | Batch 256/438 | Timestep 1570 | Loss 0.220093
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:11:46	Epoch 3 | Batch 266/438 | Timestep 1580 | Loss 0.650155
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:11:48	Epoch 3 | Batch 276/438 | Timestep 1590 | Loss 0.024591
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:11:49	Epoch 3 | Batch 286/438 | Timestep 1600 | Loss 1.093215
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:11:51	Epoch 3 | Batch 296/438 | Timestep 1610 | Loss 0.115991
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:11:52	Epoch 3 | Batch 306/438 | Timestep 1620 | Loss 0.032876
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:11:53	Epoch 3 | Batch 316/438 | Timestep 1630 | Loss 0.048628
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:11:55	Epoch 3 | Batch 326/438 | Timestep 1640 | Loss 0.030869
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:11:57	Epoch 3 | Batch 336/438 | Timestep 1650 | Loss 0.034116
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:11:58	Epoch 3 | Batch 346/438 | Timestep 1660 | Loss 0.743994
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:11:59	Epoch 3 | Batch 356/438 | Timestep 1670 | Loss 0.013137
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:12:01	Epoch 3 | Batch 366/438 | Timestep 1680 | Loss 0.010059
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:12:03	Epoch 3 | Batch 376/438 | Timestep 1690 | Loss 0.021174
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:12:04	Epoch 3 | Batch 386/438 | Timestep 1700 | Loss 0.007404
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:12:06	Epoch 3 | Batch 396/438 | Timestep 1710 | Loss 0.022751
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:12:08	Epoch 3 | Batch 406/438 | Timestep 1720 | Loss 0.008946
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:12:09	Epoch 3 | Batch 416/438 | Timestep 1730 | Loss 0.036067
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:12:11	Epoch 3 | Batch 426/438 | Timestep 1740 | Loss 0.359103
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:12:12	Epoch 3 | Batch 436/438 | Timestep 1750 | Loss 0.055158
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:12:13	** Evaluating on validation dataset **
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:12:15	
+              precision    recall  f1-score   support
+
+    Negative       0.67      0.69      0.68       195
+    Positive       0.80      0.79      0.79       305
+
+    accuracy                           0.75       500
+   macro avg       0.74      0.74      0.74       500
+weighted avg       0.75      0.75      0.75       500
+
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:12:15	Epoch 3 | Timestep 1752 | Train Loss 0.113310 | Val Loss 0.766927 | F1 Micro 0.748000
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:12:17	Epoch 4 | Batch 8/438 | Timestep 1760 | Loss 0.022390
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:12:18	Epoch 4 | Batch 18/438 | Timestep 1770 | Loss 0.113368
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:12:20	Epoch 4 | Batch 28/438 | Timestep 1780 | Loss 0.007739
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:12:21	Epoch 4 | Batch 38/438 | Timestep 1790 | Loss 0.072114
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:12:23	Epoch 4 | Batch 48/438 | Timestep 1800 | Loss 0.004737
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:12:25	Epoch 4 | Batch 58/438 | Timestep 1810 | Loss 0.015761
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:12:26	Epoch 4 | Batch 68/438 | Timestep 1820 | Loss 0.006480
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:12:27	Epoch 4 | Batch 78/438 | Timestep 1830 | Loss 0.007542
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:12:29	Epoch 4 | Batch 88/438 | Timestep 1840 | Loss 0.028298
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:12:30	Epoch 4 | Batch 98/438 | Timestep 1850 | Loss 0.015179
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:12:32	Epoch 4 | Batch 108/438 | Timestep 1860 | Loss 0.340179
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:12:33	Epoch 4 | Batch 118/438 | Timestep 1870 | Loss 0.237946
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:12:35	Epoch 4 | Batch 128/438 | Timestep 1880 | Loss 0.099318
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:12:36	Epoch 4 | Batch 138/438 | Timestep 1890 | Loss 0.008767
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:12:38	Epoch 4 | Batch 148/438 | Timestep 1900 | Loss 0.019979
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:12:39	Epoch 4 | Batch 158/438 | Timestep 1910 | Loss 0.010555
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:12:41	Epoch 4 | Batch 168/438 | Timestep 1920 | Loss 0.016616
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:12:42	Epoch 4 | Batch 178/438 | Timestep 1930 | Loss 0.095176
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:12:44	Epoch 4 | Batch 188/438 | Timestep 1940 | Loss 0.009202
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:12:45	Epoch 4 | Batch 198/438 | Timestep 1950 | Loss 0.003216
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:12:47	Epoch 4 | Batch 208/438 | Timestep 1960 | Loss 0.004692
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:12:48	Epoch 4 | Batch 218/438 | Timestep 1970 | Loss 0.002417
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:12:50	Epoch 4 | Batch 228/438 | Timestep 1980 | Loss 0.002296
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:12:51	Epoch 4 | Batch 238/438 | Timestep 1990 | Loss 0.348099
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:12:53	Epoch 4 | Batch 248/438 | Timestep 2000 | Loss 0.006254
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:12:54	Epoch 4 | Batch 258/438 | Timestep 2010 | Loss 0.287406
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:12:55	Epoch 4 | Batch 268/438 | Timestep 2020 | Loss 0.009564
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:12:57	Epoch 4 | Batch 278/438 | Timestep 2030 | Loss 0.002117
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:12:59	Epoch 4 | Batch 288/438 | Timestep 2040 | Loss 0.005452
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:13:00	Epoch 4 | Batch 298/438 | Timestep 2050 | Loss 0.003632
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:13:02	Epoch 4 | Batch 308/438 | Timestep 2060 | Loss 0.421622
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:13:03	Epoch 4 | Batch 318/438 | Timestep 2070 | Loss 0.007549
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:13:04	Epoch 4 | Batch 328/438 | Timestep 2080 | Loss 0.005691
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:13:06	Epoch 4 | Batch 338/438 | Timestep 2090 | Loss 0.007249
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:13:07	Epoch 4 | Batch 348/438 | Timestep 2100 | Loss 0.003670
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:13:09	Epoch 4 | Batch 358/438 | Timestep 2110 | Loss 0.002691
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:13:10	Epoch 4 | Batch 368/438 | Timestep 2120 | Loss 0.111222
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:13:12	Epoch 4 | Batch 378/438 | Timestep 2130 | Loss 0.005188
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:13:13	Epoch 4 | Batch 388/438 | Timestep 2140 | Loss 0.251700
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:13:15	Epoch 4 | Batch 398/438 | Timestep 2150 | Loss 0.004176
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:13:16	Epoch 4 | Batch 408/438 | Timestep 2160 | Loss 0.004949
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:13:18	Epoch 4 | Batch 418/438 | Timestep 2170 | Loss 0.255673
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:13:19	Epoch 4 | Batch 428/438 | Timestep 2180 | Loss 0.068116
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:13:21	Epoch 4 | Batch 438/438 | Timestep 2190 | Loss 0.002835
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:13:21	** Evaluating on validation dataset **
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:13:23	
+              precision    recall  f1-score   support
+
+    Negative       0.66      0.65      0.65       195
+    Positive       0.78      0.78      0.78       305
+
+    accuracy                           0.73       500
+   macro avg       0.72      0.72      0.72       500
+weighted avg       0.73      0.73      0.73       500
+
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:13:23	Epoch 4 | Timestep 2190 | Train Loss 0.067099 | Val Loss 1.034817 | F1 Micro 0.732000
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:13:25	Epoch 5 | Batch 10/438 | Timestep 2200 | Loss 0.020544
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:13:27	Epoch 5 | Batch 20/438 | Timestep 2210 | Loss 0.045502
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:13:28	Epoch 5 | Batch 30/438 | Timestep 2220 | Loss 0.010470
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:13:30	Epoch 5 | Batch 40/438 | Timestep 2230 | Loss 0.003149
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:13:31	Epoch 5 | Batch 50/438 | Timestep 2240 | Loss 0.001454
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:13:33	Epoch 5 | Batch 60/438 | Timestep 2250 | Loss 0.006588
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:13:34	Epoch 5 | Batch 70/438 | Timestep 2260 | Loss 0.010149
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:13:36	Epoch 5 | Batch 80/438 | Timestep 2270 | Loss 0.000812
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:13:37	Epoch 5 | Batch 90/438 | Timestep 2280 | Loss 0.049180
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:13:39	Epoch 5 | Batch 100/438 | Timestep 2290 | Loss 0.722689
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:13:40	Epoch 5 | Batch 110/438 | Timestep 2300 | Loss 0.004089
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:13:42	Epoch 5 | Batch 120/438 | Timestep 2310 | Loss 0.003934
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:13:43	Epoch 5 | Batch 130/438 | Timestep 2320 | Loss 0.001435
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:13:45	Epoch 5 | Batch 140/438 | Timestep 2330 | Loss 0.004925
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:13:46	Epoch 5 | Batch 150/438 | Timestep 2340 | Loss 0.003501
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:13:48	Epoch 5 | Batch 160/438 | Timestep 2350 | Loss 0.003017
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:13:49	Epoch 5 | Batch 170/438 | Timestep 2360 | Loss 0.001751
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:13:51	Epoch 5 | Batch 180/438 | Timestep 2370 | Loss 0.001271
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:13:52	Epoch 5 | Batch 190/438 | Timestep 2380 | Loss 0.003371
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:13:53	Epoch 5 | Batch 200/438 | Timestep 2390 | Loss 0.001717
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:13:55	Epoch 5 | Batch 210/438 | Timestep 2400 | Loss 0.001768
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:13:56	Epoch 5 | Batch 220/438 | Timestep 2410 | Loss 0.006109
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:13:58	Epoch 5 | Batch 230/438 | Timestep 2420 | Loss 0.002142
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:13:59	Epoch 5 | Batch 240/438 | Timestep 2430 | Loss 0.007596
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:14:01	Epoch 5 | Batch 250/438 | Timestep 2440 | Loss 0.002452
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:14:02	Epoch 5 | Batch 260/438 | Timestep 2450 | Loss 0.022912
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:14:04	Epoch 5 | Batch 270/438 | Timestep 2460 | Loss 0.007498
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:14:05	Epoch 5 | Batch 280/438 | Timestep 2470 | Loss 0.039216
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:14:07	Epoch 5 | Batch 290/438 | Timestep 2480 | Loss 0.005421
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:14:08	Epoch 5 | Batch 300/438 | Timestep 2490 | Loss 0.077630
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:14:10	Epoch 5 | Batch 310/438 | Timestep 2500 | Loss 0.005819
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:14:11	Epoch 5 | Batch 320/438 | Timestep 2510 | Loss 0.000709
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:14:13	Epoch 5 | Batch 330/438 | Timestep 2520 | Loss 0.000677
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:14:14	Epoch 5 | Batch 340/438 | Timestep 2530 | Loss 0.037040
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:14:16	Epoch 5 | Batch 350/438 | Timestep 2540 | Loss 0.004369
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:14:18	Epoch 5 | Batch 360/438 | Timestep 2550 | Loss 0.002962
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:14:19	Epoch 5 | Batch 370/438 | Timestep 2560 | Loss 0.002565
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:14:21	Epoch 5 | Batch 380/438 | Timestep 2570 | Loss 0.040858
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:14:22	Epoch 5 | Batch 390/438 | Timestep 2580 | Loss 0.005651
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:14:23	Epoch 5 | Batch 400/438 | Timestep 2590 | Loss 0.133501
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:14:25	Epoch 5 | Batch 410/438 | Timestep 2600 | Loss 0.001842
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:14:26	Epoch 5 | Batch 420/438 | Timestep 2610 | Loss 0.003199
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:14:28	Epoch 5 | Batch 430/438 | Timestep 2620 | Loss 0.007866
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:14:29	** Evaluating on validation dataset **
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:14:32	
+              precision    recall  f1-score   support
+
+    Negative       0.67      0.59      0.63       195
+    Positive       0.76      0.82      0.79       305
+
+    accuracy                           0.73       500
+   macro avg       0.71      0.70      0.71       500
+weighted avg       0.72      0.73      0.72       500
+
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:14:32	Epoch 5 | Timestep 2628 | Train Loss 0.039161 | Val Loss 1.156417 | F1 Micro 0.728000
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:14:32	Epoch 6 | Batch 2/438 | Timestep 2630 | Loss 0.004992
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:14:33	Epoch 6 | Batch 12/438 | Timestep 2640 | Loss 0.008127
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:14:35	Epoch 6 | Batch 22/438 | Timestep 2650 | Loss 0.011576
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:14:36	Epoch 6 | Batch 32/438 | Timestep 2660 | Loss 0.006593
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:14:38	Epoch 6 | Batch 42/438 | Timestep 2670 | Loss 0.002290
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:14:39	Epoch 6 | Batch 52/438 | Timestep 2680 | Loss 0.003152
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:14:41	Epoch 6 | Batch 62/438 | Timestep 2690 | Loss 0.024234
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:14:42	Epoch 6 | Batch 72/438 | Timestep 2700 | Loss 0.009432
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:14:43	Epoch 6 | Batch 82/438 | Timestep 2710 | Loss 0.000848
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:14:45	Epoch 6 | Batch 92/438 | Timestep 2720 | Loss 0.005775
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:14:46	Epoch 6 | Batch 102/438 | Timestep 2730 | Loss 0.000933
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:14:48	Epoch 6 | Batch 112/438 | Timestep 2740 | Loss 0.000602
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:14:49	Epoch 6 | Batch 122/438 | Timestep 2750 | Loss 0.079903
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:14:51	Epoch 6 | Batch 132/438 | Timestep 2760 | Loss 0.001283
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:14:53	Epoch 6 | Batch 142/438 | Timestep 2770 | Loss 0.004581
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:14:54	Epoch 6 | Batch 152/438 | Timestep 2780 | Loss 0.003249
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:14:56	Epoch 6 | Batch 162/438 | Timestep 2790 | Loss 0.001143
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:14:57	Epoch 6 | Batch 172/438 | Timestep 2800 | Loss 0.003868
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:14:59	Epoch 6 | Batch 182/438 | Timestep 2810 | Loss 0.003335
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:15:00	Epoch 6 | Batch 192/438 | Timestep 2820 | Loss 0.008481
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:15:02	Epoch 6 | Batch 202/438 | Timestep 2830 | Loss 0.061980
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:15:03	Epoch 6 | Batch 212/438 | Timestep 2840 | Loss 0.003848
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:15:05	Epoch 6 | Batch 222/438 | Timestep 2850 | Loss 0.001560
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:15:06	Epoch 6 | Batch 232/438 | Timestep 2860 | Loss 0.031246
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:15:08	Epoch 6 | Batch 242/438 | Timestep 2870 | Loss 0.008667
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:15:09	Epoch 6 | Batch 252/438 | Timestep 2880 | Loss 0.013044
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:15:11	Epoch 6 | Batch 262/438 | Timestep 2890 | Loss 0.002511
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:15:12	Epoch 6 | Batch 272/438 | Timestep 2900 | Loss 0.002633
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:15:14	Epoch 6 | Batch 282/438 | Timestep 2910 | Loss 0.001848
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:15:15	Epoch 6 | Batch 292/438 | Timestep 2920 | Loss 0.000820
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:15:17	Epoch 6 | Batch 302/438 | Timestep 2930 | Loss 0.412423
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:15:18	Epoch 6 | Batch 312/438 | Timestep 2940 | Loss 0.015004
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:15:20	Epoch 6 | Batch 322/438 | Timestep 2950 | Loss 0.000356
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:15:21	Epoch 6 | Batch 332/438 | Timestep 2960 | Loss 0.001171
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:15:23	Epoch 6 | Batch 342/438 | Timestep 2970 | Loss 0.001901
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:15:24	Epoch 6 | Batch 352/438 | Timestep 2980 | Loss 0.003398
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:15:25	Epoch 6 | Batch 362/438 | Timestep 2990 | Loss 0.001268
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:15:27	Epoch 6 | Batch 372/438 | Timestep 3000 | Loss 0.000787
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:15:28	Epoch 6 | Batch 382/438 | Timestep 3010 | Loss 0.001188
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:15:30	Epoch 6 | Batch 392/438 | Timestep 3020 | Loss 0.000479
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:15:31	Epoch 6 | Batch 402/438 | Timestep 3030 | Loss 0.016646
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:15:33	Epoch 6 | Batch 412/438 | Timestep 3040 | Loss 0.000541
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:15:35	Epoch 6 | Batch 422/438 | Timestep 3050 | Loss 0.000528
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:15:36	Epoch 6 | Batch 432/438 | Timestep 3060 | Loss 0.000384
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:15:37	** Evaluating on validation dataset **
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:15:40	
+              precision    recall  f1-score   support
+
+    Negative       0.70      0.62      0.66       195
+    Positive       0.77      0.83      0.80       305
+
+    accuracy                           0.75       500
+   macro avg       0.74      0.73      0.73       500
+weighted avg       0.74      0.75      0.74       500
+
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:15:40	Epoch 6 | Timestep 3066 | Train Loss 0.028293 | Val Loss 1.325665 | F1 Micro 0.748000
+INFO	comp9312.classify.trainer	Mon, 25 Jul 2022 10:15:40	Early termination triggered
