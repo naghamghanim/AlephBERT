@@ -52,7 +52,7 @@ def parse_args():
     parser.add_argument(
         "--bert_model",
         type=str,
-        default="avichr/heBERT",
+        default="onlplab/alephbert-base",
         help="BERT model",
     )
 

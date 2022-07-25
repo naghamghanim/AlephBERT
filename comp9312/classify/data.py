@@ -42,7 +42,7 @@ class DefaultDataset(Dataset):
         self,
         segments=None,
         vocab=None,
-        bert_model="avichr/heBERT",
+        bert_model="onlplab/alephbert-base",
         max_seq_len=512,
     ):
         """
